@@ -17,3 +17,15 @@ The Multi-Plot Coder: Dynamically generates and executes Python Seaborn scripts 
 The Critic: An internal peer-review node that checks for hallucinations and ensures report accuracy.
 
 The Interactive Oracle: A stateful chat agent with conversational memory for ad-hoc follow-up questions.
+
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set your API Key
+export GROQ_API_KEY="your_groq_key_here"
+
+# Start the server
+python app.py
+
+
